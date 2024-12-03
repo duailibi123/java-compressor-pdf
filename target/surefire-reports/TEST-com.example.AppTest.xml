@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.03" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\marcos\Desktop\java-compressor\hello-world\target\test-classes;C:\Users\marcos\Desktop\java-compressor\hello-world\target\classes;C:\Users\marcos\.m2\repository\com\aspose\pdf\aspose-pdf\23.1\aspose-pdf-23.1.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\marcos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\marcos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf\target\test-classes;C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf\target\classes;C:\Users\marcos\.m2\repository\com\aspose\pdf\aspose-pdf\23.1\aspose-pdf-23.1.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\marcos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\marcos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\marcos\AppData\Local\Temp\surefire12774905314971787471\surefirebooter14944399465300997140.jar C:\Users\marcos\AppData\Local\Temp\surefire12774905314971787471 2024-12-03T09-54-18_557-jvmRun1 surefire3989326692633025442tmp surefire_03874551058688515195tmp"/>
+    <property name="sun.java.command" value="C:\Users\marcos\AppData\Local\Temp\surefire7072786005471290349\surefirebooter4721903232499822790.jar C:\Users\marcos\AppData\Local\Temp\surefire7072786005471290349 2024-12-03T10-36-27_677-jvmRun1 surefire4938134780708159645tmp surefire_013647969086883461370tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\marcos\Desktop\java-compressor\hello-world\target\test-classes;C:\Users\marcos\Desktop\java-compressor\hello-world\target\classes;C:\Users\marcos\.m2\repository\com\aspose\pdf\aspose-pdf\23.1\aspose-pdf-23.1.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\marcos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\marcos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf\target\test-classes;C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf\target\classes;C:\Users\marcos\.m2\repository\com\aspose\pdf\aspose-pdf\23.1\aspose-pdf-23.1.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\marcos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\marcos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\marcos\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\marcos"/>
     <property name="user.language" value="en"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\marcos\Desktop\java-compressor\hello-world"/>
+    <property name="basedir" value="C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marcos\AppData\Local\Temp\surefire12774905314971787471\surefirebooter14944399465300997140.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marcos\AppData\Local\Temp\surefire7072786005471290349\surefirebooter4721903232499822790.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\marcos\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\marcos\Desktop\java-compressor\hello-world"/>
+    <property name="user.dir" value="C:\Users\marcos\Desktop\java-compressor\java-compressor-pdf"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.language.format" value="pt"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.016"/>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.015"/>
 </testsuite>
