@@ -12,7 +12,8 @@ Aspose.PDF versão 23.1 (a versão 23.1 deve ser baixada manualmente, conforme i
 Antes de começar, verifique se o Java 11 ou superior está instalado no seu sistema. Para isso, abra um terminal ou prompt de comando e execute:
 
 Copiar código
-java -version         - no git bash
+-- no  git bash
+java -version        
 Se você receber uma mensagem indicando que o Java não está instalado, siga as instruções abaixo:
 
 Para Windows:
@@ -21,22 +22,21 @@ Baixe e instale o JDK 11 para Windows.
 Após a instalação, configure as variáveis de ambiente JAVA_HOME e adicione o caminho do binário Java (C:\Program Files\Java\jdk-11.x.x\bin) à variável de ambiente Path.
 Para macOS:
 Você pode usar o Homebrew para instalar o Java:
-bash
+-- no git bash
 Copiar código
 brew install openjdk@11
 Após a instalação, adicione o Java ao seu PATH:
--- no gitbash
+-- no git bash
 Copiar código
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 Para Linux (Ubuntu/Debian):
 Instale o OpenJDK 11:
--- no gitbash
+-- no gi tbash
 Copiar código
 sudo apt update
 sudo apt install openjdk-11-jdk
 Verifique a instalação com:
-bash
--- no gitbash
+-- no gi tbash
 Copiar código
 java -version
 2. Instalando o Maven
@@ -49,27 +49,27 @@ Adicione o caminho da pasta bin do Maven ao Path nas variáveis de ambiente:
 C:\maven\apache-maven-3.x.x\bin (substitua 3.x.x pela versão correspondente).
 Para macOS (usando Homebrew):
 Se o Homebrew já estiver instalado, execute:
--- no gitbash
+-- no git bash
 Copiar código
 brew install maven
 Verifique a instalação com:
-bash
+-- no git bash
 Copiar código
 mvn -v
 Para Linux (Ubuntu/Debian):
 Instale o Maven com o comando:
-bash
+-- no git bash
 Copiar código
 sudo apt update
 sudo apt install maven
 Verifique a instalação com:
-bash
+-- no git bash
 Copiar código
 mvn -v
 3. Baixando o Repositório
 Depois de instalar o Java e o Maven, você pode clonar o repositório do projeto para o seu sistema local. Execute o seguinte comando no terminal ou prompt de comando:
 
-bash
+-- no git bash
 Copiar código
 git clone https://github.com/duailibi123/java-compressor-pdf.git
 Isso criará uma cópia local do repositório do GitHub no seu computador.
@@ -88,7 +88,7 @@ Após colocar o arquivo aspose-pdf-23.1.jar na pasta libs/, você precisa instal
 
 Execute o seguinte comando para instalar o arquivo .jar manualmente no repositório local do Maven:
 
-bash
+-- no git bash
 Copiar código
 mvn install:install-file -Dfile=libs/aspose-pdf-23.1.jar -DgroupId=com.aspose.pdf -DartifactId=aspose-pdf -Dversion=23.1 -Dpackaging=jar
 6. Construindo e Executando o Projeto
@@ -129,7 +129,6 @@ Licença:
 Este projeto está licenciado sob a MIT License.
 
 ## estrutura do Projeto:
-Copiar código
 java-compressor-pdf/
 ├── libs/
 │   └── aspose-pdf-23.1.jar         # Biblioteca Aspose.PDF versão 23.1
