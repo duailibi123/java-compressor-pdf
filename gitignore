@@ -4,8 +4,8 @@ libs/aspose-pdf-24.11.jar
 libs/aspose-pdf-24.9.jar
 libs/aspose-pdf-21.7.jar
 
-# Ignorar a pasta target (gerada pelo Maven)
-target/
+# Ignorar a pasta .target gerada pelo marven
+.target/ 
 
 # Ignorar a pasta .idea (configuração do IntelliJ IDEA)
 .idea/
