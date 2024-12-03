@@ -11,9 +11,8 @@ Aspose.PDF versão 23.1 (a versão 23.1 deve ser baixada manualmente, conforme i
 1. Instalando o Java (Versão 11 ou superior)
 Antes de começar, verifique se o Java 11 ou superior está instalado no seu sistema. Para isso, abra um terminal ou prompt de comando e execute:
 
-bash
 Copiar código
-java -version
+java -version         - no git bash
 Se você receber uma mensagem indicando que o Java não está instalado, siga as instruções abaixo:
 
 Para Windows:
@@ -26,17 +25,18 @@ bash
 Copiar código
 brew install openjdk@11
 Após a instalação, adicione o Java ao seu PATH:
-bash
+-- no gitbash
 Copiar código
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 Para Linux (Ubuntu/Debian):
 Instale o OpenJDK 11:
-bash
+-- no gitbash
 Copiar código
 sudo apt update
 sudo apt install openjdk-11-jdk
 Verifique a instalação com:
 bash
+-- no gitbash
 Copiar código
 java -version
 2. Instalando o Maven
@@ -49,7 +49,7 @@ Adicione o caminho da pasta bin do Maven ao Path nas variáveis de ambiente:
 C:\maven\apache-maven-3.x.x\bin (substitua 3.x.x pela versão correspondente).
 Para macOS (usando Homebrew):
 Se o Homebrew já estiver instalado, execute:
-bash
+-- no gitbash
 Copiar código
 brew install maven
 Verifique a instalação com:
@@ -96,12 +96,12 @@ Após instalar o Maven e configurar a biblioteca Aspose.PDF, você pode construi
 
 ## Compilar o projeto:
 
-bash
+--no git bash
 Copiar código
 mvn clean install
 Executar o projeto:
 
-bash
+-- no git bash
 Copiar código
 mvn exec:java
 Isso irá executar a classe principal com.example.PDFCompressor, que realiza a compressão do PDF. Os arquivos de entrada e saída são especificados diretamente no código dentro da classe PDFCompressor.java.
@@ -128,8 +128,7 @@ Se você deseja contribuir para o projeto, sinta-se à vontade para enviar pull 
 Licença:
 Este projeto está licenciado sob a MIT License.
 
-## strutura do Projeto
-graphql
+## estrutura do Projeto:
 Copiar código
 java-compressor-pdf/
 ├── libs/
