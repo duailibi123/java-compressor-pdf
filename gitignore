@@ -21,3 +21,4 @@ target/
 # Ignorar arquivos específicos do sistema operacional
 .DS_Store
 Thumbs.db
+bfg-1.14.0.jar
